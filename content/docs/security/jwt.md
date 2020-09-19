@@ -86,7 +86,7 @@ You can paste this token into a service like [jwt.io](https://jwt.io) and you'll
 }
 ```
 
-You can see here that the issuer (account public key) is `AASKBN2STFCUDNXMHAS5JHZ2ZBQR2L5GY2YACNHYA4A57FUUCQUKAVN2`, the unique module identity is `MBHRSJORBXAPRCALK6EKOBBCNAPMRTM6ODLXNLOV5TKPDMPXMTCMR4DW`, and that this module requires four different capabilities.
+You can see here that the issuer (account public key) is `AASKBN2STFCUDNXMHAS5JHZ2ZBQR2L5GY2YACNHYA4A57FUUCQUKAVN2`, the unique module identity is `MCIXJVXAXKDX7UFYDFW2737SHVIRNZILS3ULODGEQOVCTWQ7HSGOHUY7`, and that this module requires four different capabilities.
 
 The `hash` field is generated at signing time and is used to verify that no one has altered the bytecode of the WebAssembly module since it was signed, giving us a truly immutable and portable build artifact.
 
